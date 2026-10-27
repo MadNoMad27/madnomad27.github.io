@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps</title>
+<link rel="icon" href="squirrelproof/icon.png">
+<style>
+:root { --bg: #FBFBFE; --text: #1D1D2B; --muted: #5E5E73; --accent: #5B5BD6; --line: #E4E4F0; --code: #EEEEF8; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #16161D; --text: #ECECF3; --muted: #A2A2B5; --accent: #9C9CF5; --line: #2C2C38; --code: #24242F; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 700px; margin: 0 auto; padding: 48px 20px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; }
+header img { width: 64px; height: 64px; }
+header .app { font-size: 15px; color: var(--muted); }
+header .app a { color: inherit; text-decoration: none; font-weight: 600; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+h2 { font-size: 21px; margin: 40px 0 8px; }
+h3 { font-size: 17px; margin: 28px 0 4px; }
+p, ul { margin: 0 0 12px; }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+a { color: var(--accent); }
+code { background: var(--code); border-radius: 5px; padding: 1px 5px; font-size: 14px; word-break: break-all; }
+em { color: var(--muted); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+footer a { margin-right: 16px; }
+.apps { list-style: none; padding: 0; }
+.apps li { display: flex; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.apps li:last-child { border-bottom: 0; }
+.apps img { width: 48px; height: 48px; }
+</style>
+</head>
+<body>
+<main>
+<header><h1>Apps</h1></header>
+<ul class="apps"><li><img src="squirrelproof/icon.png" alt=""><div><a href="squirrelproof/"><strong>SquirrelProof</strong></a><br>Lock into one app or tab until the timer ends. For Mac.</div></li></ul>
+<footer>
+<a href="mailto:madnomad.apps@proton.me">madnomad.apps@proton.me</a>
+</footer>
+</main>
+</body>
+</html>

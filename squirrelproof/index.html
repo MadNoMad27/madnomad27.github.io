@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SquirrelProof Support</title>
+<link rel="icon" href="../squirrelproof/icon.png">
+<style>
+:root { --bg: #FBFBFE; --text: #1D1D2B; --muted: #5E5E73; --accent: #5B5BD6; --line: #E4E4F0; --code: #EEEEF8; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #16161D; --text: #ECECF3; --muted: #A2A2B5; --accent: #9C9CF5; --line: #2C2C38; --code: #24242F; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 700px; margin: 0 auto; padding: 48px 20px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; }
+header img { width: 64px; height: 64px; }
+header .app { font-size: 15px; color: var(--muted); }
+header .app a { color: inherit; text-decoration: none; font-weight: 600; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+h2 { font-size: 21px; margin: 40px 0 8px; }
+h3 { font-size: 17px; margin: 28px 0 4px; }
+p, ul { margin: 0 0 12px; }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+a { color: var(--accent); }
+code { background: var(--code); border-radius: 5px; padding: 1px 5px; font-size: 14px; word-break: break-all; }
+em { color: var(--muted); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+footer a { margin-right: 16px; }
+.apps { list-style: none; padding: 0; }
+.apps li { display: flex; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.apps li:last-child { border-bottom: 0; }
+.apps img { width: 48px; height: 48px; }
+</style>
+</head>
+<body>
+<main>
+<header><img src="./icon.png" alt=""><div><div class="app"><a href="./">SquirrelProof</a> for Mac</div><h1>Support</h1></div></header>
+<p>SquirrelProof locks you into one app or browser tab until the timer ends. Questions, bugs and ideas: <strong><a href="mailto:madnomad.apps@proton.me">madnomad.apps@proton.me</a></strong>. In the app, Settings ▸ About ▸ Help &amp; feedback starts the email for you with your app and macOS version filled in.</p>
+<h2>Getting started</h2>
+<ul><li><strong>Start a lock:</strong> switch to the app or tab you want to work in, press <strong>⌃⌥L</strong>, then Return. Locks run from 5 minutes to 3 hours.</li><li><strong>A thought pops up mid-lock:</strong> press <strong>⌃⌥P</strong> to park it, then get back to work. Your parked thoughts wait in the menu and on the end-of-lock screen.</li><li><strong>Two things at once:</strong> in the start panel, press <strong>⌘R</strong> and click a second app or tab to read alongside (the Reference). For work across many websites, press <strong>⌘E</strong> for a research lock: any site and any number of tabs, except the ones on your blocked list.</li><li><strong>Try it free:</strong> the 2-minute practice lock is always free. You also get 5 free full sessions before the one-time unlock.</li></ul>
+<h2>Common questions</h2>
+<h3>I can't see SquirrelProof in the menu bar.</h3>
+<p>A notch or a menu-bar manager can hide it. Press <strong>⌃⌥M</strong> to open its menu from anywhere, or open SquirrelProof from Applications or Spotlight. Also check System Settings ▸ Menu Bar: SquirrelProof needs to be allowed there. You can pick a squirrel, husky or acorn icon in Settings ▸ General ▸ Menu bar.</p>
+<h3>How do I end a lock early?</h3>
+<p>Click <strong>⋯</strong> on the floating timer and choose <strong>End early…</strong>. You wait 30 seconds the first time in a day, 2 minutes the second time and 5 minutes after that. The wait gives you a moment to change your mind; going back to your work cancels it.</p>
+<h3>Why can't I quit SquirrelProof during a lock?</h3>
+<p>That's on purpose: quitting would be an easy way out. If SquirrelProof is force-quit it comes back within seconds with the same time left, and after a restart the lock resumes. If SquirrelProof itself crashes three times in one lock, the lock ends so you're never stuck.</p>
+<h3>Safari says SquirrelProof's website access is limited.</h3>
+<p>In Safari ▸ Settings ▸ Extensions, turn on SquirrelProof, tick <strong>Allow in Private Browsing</strong>, and set website access to <strong>Allow on Every Website</strong>. You can also click the SquirrelProof button in Safari's toolbar and choose <strong>Allow on every website</strong>.</p>
+<h3>How do I connect Chrome, Arc, Brave or Edge?</h3>
+<p>Open SquirrelProof Settings ▸ Browsers and follow the steps for your browser. It installs the SquirrelProof extension and pairs it with a 6-digit code. Turn on <strong>Allow in Incognito</strong> (private or InPrivate in some browsers) on the extension's details page.</p>
+<h3>The extension says "Not running".</h3>
+<p>Open SquirrelProof. The extension reconnects by itself within a few seconds. If it still doesn't, open Settings ▸ Browsers in SquirrelProof and pair it again.</p>
+<h3>I bought SquirrelProof on another Mac.</h3>
+<p>Open Settings ▸ Purchase and click <strong>Restore purchase</strong>, signed in with the same Apple Account. Family Sharing is supported.</p>
+<h3>How do I remove SquirrelProof?</h3>
+<p>Outside a lock, choose <strong>Quit SquirrelProof</strong> from its menu, then drag the app to the Trash. To remove your data too, delete the folder <code>~/Library/Group Containers/6HM8CPZ27F.app.blinkers.mac</code>.</p>
+<h2>Privacy</h2>
+<p>SquirrelProof collects nothing: no account, no server, no analytics. Everything stays on your Mac. Read the full <a href="privacy/">privacy policy</a>.</p>
+<p><a href="privacy/">Privacy policy</a></p>
+<footer>
+<a href="mailto:madnomad.apps@proton.me">madnomad.apps@proton.me</a>
+</footer>
+</main>
+</body>
+</html>
